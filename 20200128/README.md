@@ -12,7 +12,21 @@
 
 ### 4. 반성
 
+1. filter 함수를 알았지만 쓰지 못했다
+
 ```javascript
 arr.filter((val,index) => val != arr[index+1]);
 ```
-filter 함수를 알았지만 쓰지 못했다...
+
+
+
+2. Jest의 toBe와 toStrictEqual의 차이를 알게 되었다.
+
+**toBe**
+Use .toBe to compare primitive values or to check referential identity of object instances.
+Don't use .toBe with floating-point numbers. try .toBeCloseTo instead.
+Although the .toBe matcher checks referential identity, it reports a deep comparison of values if the assertion fails. 
+
+
+**toStrictEqual**
+Use .toStrictEqual to test that objects have the same types as well as structure.
