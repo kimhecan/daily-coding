@@ -23,8 +23,12 @@ function numPY(s) {
 }
 
 ```
-
+```python
+    s.lower().count('p') == s.lower().count('y')
+```
 python에서는 match는 객체를 리턴하기 때문에 findall을 대신 쓴다.
+문자열에서 count라는 함수가 있을줄이야 역시 파이썬
+
 
 ### 4. 순서
 
