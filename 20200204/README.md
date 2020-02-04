@@ -1,6 +1,8 @@
 ### 1. 이해
 
 https://programmers.co.kr/learn/courses/30/lessons/42748?language=python3
+
+
 배열과 이중배열이 주어졌다. 배열을 다룰 수 있나 물어보는 문제다.
 
 ### 2. 계획
