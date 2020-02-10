@@ -1,0 +1,1 @@
+sorted() 함수에 두번째 인자에 reverse=True 옵션이 있다는 것을 알게됨
