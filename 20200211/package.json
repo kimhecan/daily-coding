@@ -1,0 +1,16 @@
+{
+  "name": "20200211",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code.test.js",
+  "dependencies": {
+    "jest": "^25.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
