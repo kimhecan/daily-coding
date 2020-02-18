@@ -1,4 +1,2 @@
-import math
-
-print(math.sqrt(121))
-print(121 ** (1/2))
+a = [1]
+print([i for i in a if i > min(a)])
