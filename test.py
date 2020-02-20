@@ -1,2 +1,5 @@
-a = [1]
-print([i for i in a if i > min(a)])
+
+c = sum(list(map(int, list(str(a)))))
+
+
+print(c)
