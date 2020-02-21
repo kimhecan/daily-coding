@@ -6,5 +6,4 @@ process.stdin.on('data', data => {
     for(let i =0; i < b; i++){
         console.log(row)
     }
-
 });
