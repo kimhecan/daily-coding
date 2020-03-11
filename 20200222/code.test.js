@@ -1,15 +1,15 @@
 function solution(departList, budget) {
-  departList.sort();
+  departList.sort((a,b) => a-b);
   let sum = 0;
+  let count = 0;
 
   for(let i=0; i<departList.length; i++) {
     sum += departList[i];
     if (sum > budget) return i
     if (sum == budget) return i+1
-    if (i == departList.length - 1) return departList.length 
+    if (i+1 == departList.length) return departList.length
   }
 }
-
 
 // function solution(d, budget) {
 //   d.sort((a, b) => a - b);
