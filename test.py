@@ -1,7 +1,4 @@
-for i, j in zip([1,2,3], [4,5,6]):
-  print(i, j)
+import re
 
-
-1100
-1110
-print(str(bin(5|2)[2:]))
+a = re.compile('\d').findall('ddd')
+print(len(a))
