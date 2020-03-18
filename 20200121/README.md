@@ -18,11 +18,12 @@
 
 ### 4. 반성
 
+#### python
+
+
 python 모듈 중 collections이 있었다. collections는 다양한 자료구조를 확장하여 제작되었다.
 
 collections.deque 모듈은 스택과 큐를 지원한느 모듈이다. append()로 왼쪽부터 채울 수 있으며 pop()으로 오른쪽부터 빼올 수 있고 appendleft()로 오른쪽부터 채울 수 있다.deque는 연결 리스트의 특성을 지원하여 원형으로 데이터를 만들 수 있고 그 특성 때문에 rotate()함수로 인덱스를 옆으로 옮길 수 있다. extend() extendleft()로 기존 배열을 추가할 수 있다.
-
-# python
 
 collections.OrderedDict 모듈은 순서를 가진 딕셔너리 객체이다. 
 
