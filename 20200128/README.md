@@ -18,7 +18,11 @@
 arr.filter((val,index) => val != arr[index+1]);
 ```
 
+```python
 
+[i for i in xrange(10) if ~] 문법사용 
+
+```
 
 2. Jest의 toBe와 toStrictEqual의 차이를 알게 되었다.
 
