@@ -11,3 +11,18 @@
 
 
 ### 4. 반성
+
+
+#### python
+
+파이썬에 sum은 리스트를 인자로 받기 때문에 range를 이용하면 더 쉽게 풀 수 있었다.
+
+```python
+
+def adder(a, b):
+
+    if a > b: a, b = b, a
+
+    return sum(range(a,b+1))
+
+```

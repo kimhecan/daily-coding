@@ -1,0 +1,15 @@
+{
+  "name": "20200317",
+  "version": "1.0.0",
+  "description": "점수/보너스/[옵션]으로 문자열이 주어졌고 각 규칙에 따라 점수를 구하는 문제다.",
+  "main": "code.test.js",
+  "dependencies": {
+    "jest": "25.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
