@@ -1,6 +1,14 @@
+<<<<<<< HEAD
+{
+  "python.pythonPath": "C:\\Users\\82103\\Anaconda3\\envs\\tensorflow\\python.exe",
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "git.ignoreLimitWarning": true
+=======
 {
   "python.pythonPath": "C:\\Users\\Admin\\anaconda3\\python.exe",
   "python.linting.pylintEnabled": true,
   "python.linting.enabled": true,
   "git.ignoreLimitWarning": true
+>>>>>>> 8b6fdfa87e16ec0d4b45fcfc97c2e616e6067b6f
 }
