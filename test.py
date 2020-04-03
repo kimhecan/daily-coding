@@ -1,5 +1,11 @@
-import sys
+# import sys
 
-a = sys.stdin.readline().split()
+# # a = sys.stdin.readline().split()
 
-print(a)
+# 4200 // 50000
+
+a = []
+print(len(a))
+
+for i in range(0,0):
+  print(123)
