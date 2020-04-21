@@ -1,22 +1,3 @@
-# def solution(people, limit):
-#   people.sort()
-#   shipCount = 0
-#   for i in range(0, len(people)):
-#     if sum(people[i:i+2]) <= limit:
-#       shipCount += 1
-#       people = people[i+2:]
-#       shipCount += solution(people, limit)
-#       break
-      
-#     else:
-#       shipCount += 1
-#       people = people[i+1:]
-#       shipCount += solution(people, limit)
-#       break
-  
-#   return shipCount
-
-
 def solution(people, limit):
   people.sort()
   shipCount = 0
