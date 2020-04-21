@@ -7,9 +7,9 @@ function solution(participant, completion) {
   return acc;
 }, {})
 
-completion.forEach((name,i) => {
+  completion.forEach((name,i) => {
     participantObj[name] -= 1;
-})
+  })
   
   for(let i in participantObj) {
       if (participantObj[i] === 1) {
@@ -22,12 +22,6 @@ completion.forEach((name,i) => {
 
 test('solution', () => {
   expect(solution(["leo", "kiki", "eden"],["eden", "kiki"])).toBe("leo");
-});
-
-test('solution', () => {
   expect(solution(["marina", "josipa", "nikola", "vinko", "filipa"]	,["josipa", "filipa", "marina", "nikola"])).toBe("vinko");
-})
-
-test('solution', () => {
   expect(solution(["mislav", "stanko", "mislav", "ana"],["stanko", "ana", "mislav"])).toBe("mislav");
 });

@@ -23,7 +23,7 @@
 
 python 모듈 중 collections이 있었다. collections는 다양한 자료구조를 확장하여 제작되었다.
 
-collections.deque 모듈은 스택과 큐를 지원한느 모듈이다. append()로 왼쪽부터 채울 수 있으며 pop()으로 오른쪽부터 빼올 수 있고 appendleft()로 오른쪽부터 채울 수 있다.deque는 연결 리스트의 특성을 지원하여 원형으로 데이터를 만들 수 있고 그 특성 때문에 rotate()함수로 인덱스를 옆으로 옮길 수 있다. extend() extendleft()로 기존 배열을 추가할 수 있다.
+collections.deque 모듈은 스택과 큐를 지원한느 모듈이다. append()로 오른부터 채울 수 있으며 pop()으로 오른쪽부터 빼올 수 있고 appendleft()로 왼쪽부터 채울 수 있다.deque는 연결 리스트의 특성을 지원하여 원형으로 데이터를 만들 수 있고 그 특성 때문에 rotate()함수로 인덱스를 옆으로 옮길 수 있다. extend() extendleft()로 기존 배열을 추가할 수 있다.
 
 collections.OrderedDict 모듈은 순서를 가진 딕셔너리 객체이다. 
 
@@ -37,3 +37,4 @@ collections.Counter 모듈은 시퀀스 자료형의 데이터 요소 개수를 
 # javascript
 
 reduce 함수를 사용해서 리스트안에 같은 값이 몇개가 있는지 나타내는 객체를 만들 수 있는지가 관건인거 같다.
+
