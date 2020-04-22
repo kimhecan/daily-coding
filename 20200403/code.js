@@ -8,9 +8,9 @@ function solution(people, limit) {
   while (light <= heavy) {
     count += 1;
     if (people[light] + people[heavy] <= limit) {
-      heavy -= 1;
+      light += 1;
     }
-    light += 1;
+    heavy -= 1;
   }
   return count;
 }
