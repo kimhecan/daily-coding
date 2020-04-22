@@ -18,6 +18,3 @@ for b, a in arr:
     cnt += 1
 
 print(cnt)
-
-
-#https://www.acmicpc.net/problem/1931
