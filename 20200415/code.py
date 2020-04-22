@@ -20,30 +20,4 @@ for b, a in arr:
 print(cnt)
 
 
-
-
-
-
-
-
-
-
-
-
-# conferNum = int(input())
-# conferList = []
-# for i in range(0, conferNum):
-#   conferList.append(list(map(int, input().split())))
-# conferList.sort(key=lambda x: x[10])
-# conferList.sort(key=lambda x: x[1])
-
-# end = answer = 0
-
-# for m in conferList:
-#   if end <= m[0]:
-#     end = m[1]
-#     answer += 1
-
-# print(answer)
-
 #https://www.acmicpc.net/problem/1931
