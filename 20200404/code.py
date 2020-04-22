@@ -11,6 +11,3 @@ def solution():
   return time
 
 print(solution())
-
-
-## 그리디문제였고 작은 순으로 정렬하고 각각 더해주면 된다
