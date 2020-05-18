@@ -1,5 +1,2 @@
-from collections import deque
-
-a = deque([1])
-a.append(2)
+a = [False for _ in range(3)]
 print(a)
